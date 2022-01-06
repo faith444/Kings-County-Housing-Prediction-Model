@@ -34,7 +34,7 @@ We've used housing data from the King County dataset, which has records on house
 
 After cleaning the data for incorrect/missing values, we dropped the 'id' column as it wouldn't be useful going forward. Next, we've listed out the variables by type (categorical vs continuous) and plotted a corresponding heatmap for all of the non-dropped columns
 
-![Image]Documents/Flatiron/phase_2/Kings-County-Housing-Prediction-Model/Correlation Heat Map.png
+![Image] Documents/Flatiron/phase_2/Kings-County-Housing-Prediction-Model/Correlation Heat Map.png
 
 Next, we then perform a train-test split to train and eventually test a model to see how well it works with the newly obtained test data.
 
