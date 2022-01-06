@@ -4,7 +4,7 @@
 
 **Authors:** Grace Arina, Justin Sohn, Anthony Warren
 
-##Business Problem
+## Business Problem
 ---
 
 The goal is to save the new home buyers some time and to help ensure consistency in pricing between new houses on the market and old houses.
@@ -13,7 +13,7 @@ The main purpose of this algorithm is predictive, meaning that this model should
 
 The secondary purpose of this algorithm is inferential, meaning that the model should be able to tell us something about the relationship between the attributes of a house in King's County and its price.
 
-##Analysis Questions
+## Analysis Questions
 ---
 
 This analysis will seek to answer three questions about the data:
@@ -24,12 +24,12 @@ This analysis will seek to answer three questions about the data:
 
 **Question 3**: What combinations of features is the best fit, in terms of predictive power, for a multiple regression model to predict house prices?
 
-##Data
+## Data
 ---
 
 We've used housing data from the King County dataset, which has records on houses sold from May 2014 to May 2015. 
 
-##Methods
+## Methods
 ---
 
 After cleaning the data for incorrect/missing values, we dropped the 'id' column as it wouldn't be useful going forward. Next, we've listed out the variables by type (categorical vs continuous) and plotted a corresponding heatmap for all of the non-dropped columns
@@ -40,11 +40,11 @@ Next, we then perform a train-test split to train and eventually test a model to
 
 From here, we've obtained our baseline, numeric, and final models
 
-##Results
+## Results
 ---
 
-##Recommendations
+## Recommendations
 ---
 
-##Conclusion
+## Conclusion
 ---
