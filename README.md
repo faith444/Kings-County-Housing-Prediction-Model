@@ -39,7 +39,7 @@ Methods
 
 After cleaning the data for incorrect/missing values, we dropped the 'id' column as it wouldn't be useful going forward. Next, we've listed out the variables by type (categorical vs continuous) and plotted a corresponding heatmap for all of the non-dropped columns.
 
-![Image](Documents/Flatiron/phase_2/Kings-County-Housing-Prediction-Model/Correlation Heat Map.png)
+![Image](<insert heatmap here>)
 
 Next, we then perform a train-test split to train and eventually test a model to see how well it works with the newly obtained test data.
 
@@ -50,8 +50,27 @@ Results
 
 After building our final model, we've obtained the following:
 
-(insert images here)
+![Image](https://github.com/grace-arina/Kings-County-Housing-Prediction-Model/blob/main/data/Inferential_Model.jpg)
 
+What this translates to is that, according to our model, all other things held constant, for each 1 degree increase in latitude, the price of the home rose by $141,214. With the same assumptions, each 1 unit increase in square footage will raise home prices by $249.
+
+![Image](https://github.com/grace-arina/Kings-County-Housing-Prediction-Model/blob/main/data/R_Squared_Final.jpg)
+![Image](https://github.com/grace-arina/Kings-County-Housing-Prediction-Model/blob/main/data/RMSE_Final.jpg)
+
+These two graphs capture our R-Squared of 80.2%, meaning that our model captures 80.2% of the variance in price, and our Root Mean Squared Error of $164,842, meaning that our model is only off by $164,842 in regards to predicting home prices in King County.
+
+![Image](https://github.com/grace-arina/Kings-County-Housing-Prediction-Model/blob/main/data/A_M_Home_Price.jpg)
+![Image](https://github.com/grace-arina/Kings-County-Housing-Prediction-Model/blob/main/data/House_Sale_Final.jpg)
+
+From here, we've found that the time of year affects the home prices across average, median, and total home sales.
+
+![Image](https://github.com/grace-arina/Kings-County-Housing-Prediction-Model/blob/main/data/KC_Area.Final.jpg)
+
+Home prices went down the further away they were from the downtown Seattle and Redmond areas.
+
+![Image](https://github.com/grace-arina/Kings-County-Housing-Prediction-Model/blob/main/data/Home_Quality_Final.jpg)
+
+Home prices rose as the quality of homes rose, leading us to believe that homesellers could get more bang for their buck by doing renovations.
 
 Recommendations
 ---
