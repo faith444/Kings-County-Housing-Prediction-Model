@@ -38,7 +38,7 @@ After data cleaning:
 After cleaning the data for incorrect/missing values, we dropped the 'id' column as it wouldn't be useful going forward. Next, we've listed out the variables by type (categorical vs continuous) and plotted a corresponding heatmap for all of the non-dropped columns
 
 ![Image] Documents/Flatiron/phase_2/Kings-County-Housing-Prediction-Model/Correlation Heat Map.png
-
+<img src="Documents/Flatiron/phase_2/Kings-County-Housing-Prediction-Model/Correlation Heat Map.png" width="250"/>
 Next, we then perform a train-test split to train and eventually test a model to see how well it works with the newly obtained test data.
 
 From here, we've obtained our baseline, numeric, and final models
