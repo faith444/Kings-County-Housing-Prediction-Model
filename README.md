@@ -63,11 +63,11 @@ Lower Prices:
 - Houses in the southern part of King County have lower prices
 
 ### Home Quality
-![image](https://user-images.githubusercontent.com/93217519/148599579-ed25029c-c593-4405-abb1-d28ada1661ad.png =250x250))
+![image](https://user-images.githubusercontent.com/93217519/148599579-ed25029c-c593-4405-abb1-d28ada1661ad.png )
 
 
 ### Inferential Model
-![image](https://user-images.githubusercontent.com/93217519/148598127-ec091928-1a2c-4642-b20e-bc166b569465.png =250x250)
+![image](https://user-images.githubusercontent.com/93217519/148598127-ec091928-1a2c-4642-b20e-bc166b569465.png )
 
 All other factors held constant:
 - The further up north in King County the home is located, the higher the price of the home with a coefficient of $141,214 with each increase of latitude
