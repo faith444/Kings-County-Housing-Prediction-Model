@@ -26,8 +26,11 @@ This analysis will seek to answer three questions about the data:
 
 ## Data
 ---
+The King County Housing Data Set contains information about the price, size, location, condition and other features of houses in the Washington’s King County area.
+After data cleaning:
+- 21,597 house sales between May 2014 – May 2015
+- 21 variables
 
-We've used housing data from the King County dataset, which has records on houses sold from May 2014 to May 2015. 
 
 ## Methods
 ---
@@ -42,9 +45,43 @@ From here, we've obtained our baseline, numeric, and final models
 
 ## Results
 ---
+### Seasonal Factor
+![image](https://user-images.githubusercontent.com/93217519/148599375-1751e064-299b-448d-a95d-35ea36e2991d.png)
+![image](https://user-images.githubusercontent.com/93217519/148599405-8fd635ce-6236-4fcf-804d-469abbe47f15.png)
+
+Average and median sale prices were the highest between April-June, while the opposite is true between November-February
+
+
+### Geographical Factor
+![image](https://user-images.githubusercontent.com/93217519/148599466-f6c8210d-c031-4c67-96f6-181bf798d829.png)
+Higher Prices:
+- Houses between downtown Seattle and  downtown Redmond tend to have higher prices
+- Tend to be clustered
+- Near water area
+Lower Prices:
+- Tend to be spread out
+- Houses in the southern part of King County have lower prices
+
+### Home Quality
+![image](https://user-images.githubusercontent.com/93217519/148599579-ed25029c-c593-4405-abb1-d28ada1661ad.png)
+
+
+### Inferential Model
+![image](https://user-images.githubusercontent.com/93217519/148598127-ec091928-1a2c-4642-b20e-bc166b569465.png)
+All other factors held constant:
+- The further up north in King County the home is located, the higher the price of the home with a coefficient of $141,214 with each increase of latitude
+- Each additional square footage of living space in the home is associated with an increase of $249 in price
+- Each additional bedroom is associated with a decrease of $46,098 in the price of a home
+- Each additional bathroom is associated with an increase of $10,629 in the price of a home
+- The age of the home, yr_built, has a negative association with price with a decrease of $3,392 per year
+![image](https://user-images.githubusercontent.com/93217519/148598507-2d4c571a-43b6-4d8f-b085-e31197a5e6de.png)
+
+## Model
+![image](https://user-images.githubusercontent.com/93217519/148600151-fefe9644-17e4-493d-a4bb-debc0867f659.png)
 
 ## Recommendations
 ---
+Together, square footage, grade and bathrooms are the best predictors of a house's price in King County. Homeowners who are interested in selling their homes at a higher price should focus on expanding square footage and improving the quality of construction. When expanding square footage, homeowners should consider building additional bathrooms, as this analysis suggests that number of bathrooms is positively related to price.
 
 ## Conclusion
 ---
