@@ -63,18 +63,19 @@ Lower Prices:
 - Houses in the southern part of King County have lower prices
 
 ### Home Quality
-![image](https://user-images.githubusercontent.com/93217519/148599579-ed25029c-c593-4405-abb1-d28ada1661ad.png)
+![image](https://user-images.githubusercontent.com/93217519/148599579-ed25029c-c593-4405-abb1-d28ada1661ad.png =250x250))
 
 
 ### Inferential Model
-![image](https://user-images.githubusercontent.com/93217519/148598127-ec091928-1a2c-4642-b20e-bc166b569465.png)
+![image](https://user-images.githubusercontent.com/93217519/148598127-ec091928-1a2c-4642-b20e-bc166b569465.png =250x250)
+
 All other factors held constant:
 - The further up north in King County the home is located, the higher the price of the home with a coefficient of $141,214 with each increase of latitude
 - Each additional square footage of living space in the home is associated with an increase of $249 in price
 - Each additional bedroom is associated with a decrease of $46,098 in the price of a home
 - Each additional bathroom is associated with an increase of $10,629 in the price of a home
 - The age of the home, yr_built, has a negative association with price with a decrease of $3,392 per year
-![image](https://user-images.githubusercontent.com/93217519/148598507-2d4c571a-43b6-4d8f-b085-e31197a5e6de.png)
+
 
 ## Model
 ![image](https://user-images.githubusercontent.com/93217519/148600151-fefe9644-17e4-493d-a4bb-debc0867f659.png)
