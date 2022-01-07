@@ -4,12 +4,12 @@
 
 **Authors:** Grace Arina, Justin Sohn, Anthony Warren
 
-##Introduction
+Introduction
 ---
 
 We are a group of data scientists tasked with helping our stakeholders with their business problems. Our stakeholders include new home buyers, home sellers, and folks in the tech industry who are looking at home prices depending on their distance from downtown Seattle & Redmond.
 
-##The Business Problem
+The Business Problem
 ---
 
 The goal is to save the new home buyers some time and to help ensure consistency in pricing between new houses on the market and old houses, help home sellers determine the best way for them to get the best deal when they sell their home, and to determine whether distance from the downtown areas have an effect on home prices.
@@ -18,7 +18,7 @@ The main purpose of this algorithm is predictive, meaning that this model should
 
 The secondary purpose of this algorithm is inferential, meaning that the model should be able to tell us something about the relationship between the attributes of a house in King's County and its price.
 
-##Analysis Questions
+Analysis Questions
 ---
 
 This analysis will seek to answer three questions about the data:
@@ -29,12 +29,12 @@ This analysis will seek to answer three questions about the data:
 
 **Question 3**: What combinations of features is the best fit, in terms of predictive power, for a multiple regression model to predict house prices?
 
-##Data
+Data
 ---
 
 We've used housing data from the King County dataset, which has records on houses sold from May 2014 to May 2015. 
 
-##Methods
+Methods
 ---
 
 After cleaning the data for incorrect/missing values, we dropped the 'id' column as it wouldn't be useful going forward. Next, we've listed out the variables by type (categorical vs continuous) and plotted a corresponding heatmap for all of the non-dropped columns.
@@ -45,7 +45,7 @@ Next, we then perform a train-test split to train and eventually test a model to
 
 From here, we've obtained our baseline, numeric, and final models.
 
-##Results
+Results
 ---
 
 After building our final model, we've obtained the following:
@@ -53,7 +53,7 @@ After building our final model, we've obtained the following:
 (insert images here)
 
 
-##Recommendations
+Recommendations
 ---
 
 Based on the above, we can recommend the following:
